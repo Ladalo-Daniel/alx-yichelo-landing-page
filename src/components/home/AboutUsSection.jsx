@@ -1,9 +1,10 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 const AboutUsSection = () => {
   return (
-    <section className=" mt-0  px-0 overflow-hidden bg-orange-50 lg:pt-30 max-w-7xl mx-auto pb-6  w-full  flex flex-col">
+    <section id='about' className=" mt-0  px-0 overflow-hidden bg-orange-50 lg:pt-30 max-w-7xl mx-auto pb-6  w-full  flex flex-col">
        <h1 className=' lg:ml-16 mt-6 text-2xl text-black font-semibold mb-2'>About us</h1>
 
         <div className="flex justify-between flex-col lg:flex-row items-start lg:gap-x-20">
@@ -16,6 +17,11 @@ const AboutUsSection = () => {
           <p className="text-black font-thi pb-3 lg:text-lg">
           I was inspired by real-world challenges faced by users when exploring gadgets online, the overwhelming choices, lack of personalized recommendations, and tedious checkout processes. I knew there had to be a better way, and thus, Yichelo was born.
           </p>
+
+          <h1 className=' lg:ml-16 mt-6 text-2xl text-black font-semibold mb-2' >Meet me on GitHub:</h1>
+          <Link href={"https://github.com/Ladalo-Daniel"} className=' ring-1 w-[150px] text-white bg-orange-400 mt-2 p-2 lg:ml-16 rounded-md cursor-pointer' >
+            Ladalo...
+          </Link>
 
          
         </div>

@@ -11,7 +11,7 @@ import Logo from '../Logo';
 const navItems = [
     {
         name: "Feature",
-        link: "/feature",
+        link: "#feature",
     },
     {
         name: "About",
@@ -95,7 +95,7 @@ function Header() {
             ))}
            </ul>
           <Link 
-          href="#" 
+          href="https://alx-portfolio-project-yichelo-gadget-e-commerce-store.vercel.app/" 
           onClick={mobileNav && handleMobileOpen}
           className='  py-2.5 lg:py-2 text-white text-lg hover:opacity-80 rounded-md max-sm:text-sm md:text-lg bg-orange-400  px-2 lg:px-4 mr-5 max-lg:mr-0'
           >
