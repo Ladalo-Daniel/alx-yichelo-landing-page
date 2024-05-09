@@ -53,7 +53,7 @@ function Header() {
 
 
   return (
-    <nav className={`flex ra  px-1 lg:px-14 flex-row items-center max-w-7xl mx-auto  justify-between z-50 ${nav ? " ra bg-orange-60 transition-all" : "ra bg-orange-60"} w-full  h-[80px]  `}>
+    <nav className={`flex bg-orange-300  px-1 lg:px-14 flex-row items-center max-w-7xl mx-auto  justify-between z-50 ${nav ? " ra bg-orange-300 transition-all" : "bg-orange-300"} w-full  h-[80px]  `}>
         {/* IMAGELOGO_HERE */}
         <div className=' flex flex-row gap-2 items-center px-5'>
             {/* <div className=' lg:hidden' onClick={handleMobileOpen}>
@@ -97,7 +97,7 @@ function Header() {
           <Link 
           href="https://alx-portfolio-project-yichelo-gadget-e-commerce-store.vercel.app/" 
           onClick={mobileNav && handleMobileOpen}
-          className='  py-2.5 lg:py-2 text-white text-lg hover:opacity-80 rounded-md max-sm:text-sm md:text-lg bg-orange-400  px-2 lg:px-4 mr-5 max-lg:mr-0'
+          className='  py-2.5 lg:py-2 text-black text-lg hover:opacity-80 rounded-md max-sm:text-sm md:text-lg bg-white  px-2 lg:px-4 mr-5 max-lg:mr-0'
           >
             Get Started
           </Link>
