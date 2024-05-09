@@ -32,7 +32,7 @@ const FeaturedSection = () => {
 
   return (
     <section id='feature' className=" mt-0  px-0 overflow-hidden bg-white lg:pt-30 max-w-7xl mx-auto pb-6  w-full  flex flex-col">
-       <h1 className=' lg:ml-16 mt-6 text-2xl text-black font-semibold mb-2'>Our Features</h1>
+       <h1 className=' lg:ml-16 max-lg:mx-4 mt-6 text-2xl text-black font-semibold mb-2'>Our Features</h1>
 
        <div className=' lg:ml-12 flex flex-col  '>
        <div className="xl:flex-[1.5] flex flex-col  lg:grid-cols-2 lg:grid gap-10">
