@@ -4,7 +4,7 @@ import React from 'react'
 
 const AboutUsSection = () => {
   return (
-    <section id='about' className=" mt-0  px-0 overflow-hidden bg-orange-50 lg:pt-30 max-w-7xl mx-auto pb-6  w-full  flex flex-col">
+    <section id='about' className=" mt-0  px-0 max-lg:px-4 overflow-hidden bg-orange-50 lg:pt-30 max-w-7xl mx-auto pb-6  w-full  flex flex-col">
        <h1 className=' lg:ml-16 mt-6 text-2xl text-black font-semibold mb-2'>About us</h1>
 
         <div className="flex justify-between flex-col lg:flex-row items-start lg:gap-x-20">

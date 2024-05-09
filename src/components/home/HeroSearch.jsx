@@ -3,7 +3,7 @@ import React from 'react'
 
 const HeroSearch = () => {
   return (
-        <div className=' w-[94%] max-lg:w-[94%] max-lg:mx-4 ml-16 searc blur-6 text-payWhite bg-orange-400 opacity-95  rounded-md absolute max-sm:bottom-[1.5rem] max-sm:px-4 max-md:bottom-[2rem] bottom-[3.5rem]  '>
+        <div className=' w-[94%] max-lg:w-[94%] max-lg:mx-4 ml-16 searc blur-6 text-payWhite bg-orange-400 opacity-95  rounded-md absolute max-sm:bottom-[1.5rem] max-sm:px-4 max-md:bottom-[1rem] bottom-[3.5rem]  '>
             <div
             className=" w-full gap-2 px-4 mx-auto mt-10 my-5">
             <div className=" flex flex-row max-lg:flex-col gap-2 mb-4">
