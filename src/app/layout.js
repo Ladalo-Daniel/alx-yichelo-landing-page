@@ -4,8 +4,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Payslate Event App",
-  description: "All Possible Events closest to you",
+  title: "Yichelo Landing Page",
+  description: "All Gadgets Closest to you",
 };
 
 export default function RootLayout({ children }) {
